@@ -1,1 +1,1 @@
-CRUD 
+jangan lupa npm install dulu 
