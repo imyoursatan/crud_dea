@@ -1,0 +1,119 @@
+/* addStory.css */
+.add-story-container {
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.breadcrumb {
+	font-size: 14px;
+	color: #888;
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-size: 28px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.story-form {
+	display: flex;
+	flex-direction: column;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+.form-group label {
+	display: block;
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+}
+
+.form-group textarea {
+	resize: vertical;
+	min-height: 100px;
+}
+
+.tags-input {
+	display: flex;
+	gap: 10px;
+}
+
+.tag {
+	background-color: #ff7849;
+	color: white;
+	border-radius: 20px;
+	padding: 8px 15px;
+	font-size: 14px;
+}
+
+.add-chapter-button {
+	text-align: right;
+	margin-bottom: 20px;
+}
+
+.add-chapter-button button {
+	background-color: #ff7849;
+	color: white;
+	border: none;
+	border-radius: 20px;
+	padding: 10px 20px;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.form-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.form-footer button {
+	padding: 10px 20px;
+	border: none;
+	border-radius: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.form-footer button:first-child {
+	background-color: #ccc;
+	color: #fff;
+}
+
+.form-footer button:last-child {
+	background-color: #ff7849;
+	color: #fff;
+}
+
+.last-updated {
+	margin-top: 20px;
+}
+
+.last-updated label {
+	font-weight: bold;
+}
+
+.last-updated p {
+	margin: 5px 0;
+	color: #888;
+}
